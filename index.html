@@ -9,8 +9,11 @@
 	<body>
 		<div class="side-picture"></div>
 		<div class="signup-form">
-			<div class="above-form"></div>
-			<form class="signup-form" action="javacript:void(0)" method="get">
+			<div class="above-form">
+				<p>This is just an example sign-up page -- this does not actually sign up for any accounts anywhere</p>
+				<p>This website is great - sign up below!</p>
+			</div>
+			<form id="signup-form" action="javacript:void(0)" method="get">
 				<div class="form-input-container">
 					<label for="fname">First Name</label>
 					<input name="fname" id="fname" type="text">
@@ -36,7 +39,10 @@
 					<input name="passConfirm" id="passConfirm" type="password">
 				</div>
 			</form>
-			<div class="below-form"></div>
+			<div class="below-form">
+				<button form="signup-form" type="submit">Sign Up</button>
+				<p>Already have an account? <a href="javascript:void(0)">Log In</a></p>
+			</div>
 		</div>
 	</body>
 </html>
