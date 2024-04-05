@@ -14,4 +14,50 @@ body {
 
 .signup-form {
 	flex: 2 0 200px;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: beige;
+}
+
+#signup-form {
+	display: grid;
+	width: 100%;
+	padding: 20px 50px;
+	box-sizing: border-box;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px 40px;
+	background-color: white;
+	box-shadow: 5px 3px 5px 2px lightgray;
+}
+
+.form-input-container label {
+	display: block;
+	font-weight: bold;
+	padding: 2px;
+} 
+
+.form-input-container input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: larger;
+}
+
+.around-form {
+	margin: 50px;
+}
+
+.around-form p {
+	font-size: larger;
+}
+
+.around-form button {
+	font-size: larger;
+	padding: 20px;
+	background-color: gray;
+	color: whitesmoke;
+	border-radius: 5px;
 }
