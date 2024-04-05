@@ -1,3 +1,17 @@
+body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
 .side-picture {
+	flex: 1 1 100px;
+	background-size: cover;
+	background-position: center bottom;
 	background-image: url(./hannah-wright-OlbCWO7068Y-unsplash.jpg);
+}
+
+.signup-form {
+	flex: 2 0 200px;
 }
