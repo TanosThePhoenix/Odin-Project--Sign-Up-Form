@@ -26,6 +26,19 @@ body {
 	background-color: rgba(173, 183, 184, 0.7);
 	color:darkslategray;
 	flex: 0 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-pic-text img {
+	height: 100px;
+	margin: 20px;
+}
+
+.side-pic-text h1 {
+	font-size: 80px;
+	font-family: NorseBold;
 }
 
 .side-pic-image-attribution {
@@ -94,4 +107,9 @@ body {
 	background-color: gray;
 	color: whitesmoke;
 	border-radius: 5px;
+}
+
+@font-face {
+	font-family: NorseBold;
+	src: url(Norse-Bold.otf) format('opentype');
 }
